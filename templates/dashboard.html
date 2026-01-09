@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Global Navbar */
+        .navbar {
+            background: #007bff;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: #fff;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Container */
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            background: #fff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .account-info {
+            margin: 20px 0;
+            padding: 15px;
+            background: #eef3f7;
+            border-radius: 6px;
+        }
+
+        .account-info p {
+            font-size: 16px;
+            margin: 8px 0;
+        }
+
+        /* Action Buttons */
+        .actions {
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .actions a {
+            flex: 1;
+            min-width: 120px;
+            text-align: center;
+            padding: 12px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .actions a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Global Navbar -->
+    <div class="navbar">
+        <a href="{% url 'dashboard' %}">Home</a>
+        <!-- <a href="{% url 'history' %}">History</a> -->
+        <a href="{% url 'support' %}">Support</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'logout' %}">Logout</a>
+    </div>
+
+    <!-- Dashboard Content -->
+    <div class="container">
+        <h2>Welcome {{ user.username }}</h2>
+
+        <div class="account-info">
+            <p>Account Number: <strong>{{ acc.acc_number }}</strong></p>
+            <p>Account Type: <strong>{{ acc.acc_type }}</strong></p>
+            <p>Balance: <strong>{{ acc.balance }}</strong></p>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="actions">
+            <a href="{% url 'deposit' %}">Deposit</a>
+            <a href="{% url 'withdraw' %}">Withdraw</a>
+            <a href="{% url 'transfer' %}">Transfer</a>
+            <a href="{% url 'history' %}">View History</a>
+        </div>
+    </div>
+</body>
+
+</html>
