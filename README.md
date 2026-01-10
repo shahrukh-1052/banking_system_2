@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">🏦 Banking Management System II</h1>
 
 <p align="center">
@@ -70,3 +71,6 @@ This project is built using **Django**, containerized with **Docker**, and deplo
 </p>
 
 <p align="center"><i>Made with ❤️ by Mohammed Habeebuddin</i></p>
+=======
+
+>>>>>>> a2c7fcdd956ff595a34b071ecaead843edf2be1a
