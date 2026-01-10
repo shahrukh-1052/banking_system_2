@@ -24,13 +24,13 @@ This project is built using **Django**, containerized with **Docker**, and deplo
 
 ## 🚀 Live Demo
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://banking-system-2-5dsg.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/-Click to View 🔗-000?style=for-the-badge&logo=render&logoColor=white" />
   </a>
-</p> -->
+</p>
 
-[![Live Demo](https://img.shields.io/badge/-Click to View 🔗-000?style=for-the-badge&logo=render&logoColor=white)](https://banking-system-2-5dsg.onrender.com)
+
 
 ---
 
