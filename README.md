@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">🏦 Banking Management System II</h1>
 
 <p align="center">
@@ -7,7 +6,10 @@
   <img src="https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python" alt="Python" />
   <img src="https://img.shields.io/badge/PostgreSQL-Neon_Cloud_DB-critical?style=for-the-badge&logo=postgresql" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/Docker-Containerized-lightblue?style=for-the-badge&logo=docker" alt="Docker" />
-  [<img src="https://img.shields.io/badge/License-MIT-informational?style=for-the-badge&logo=github" alt="License" />](LICENSE)
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/License-MIT-informational?style=for-the-badge&logo=github" alt="License" />
+  </a>
+  <img src="https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonaws" alt="AWS EC2" />
 </p>
 
 ---
@@ -22,11 +24,13 @@ This project is built using **Django**, containerized with **Docker**, and deplo
 
 ## 🚀 Live Demo
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://banking-system-2-5dsg.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/-Click to View 🔗-000?style=for-the-badge&logo=render&logoColor=white" />
   </a>
-</p>
+</p> -->
+
+[![Live Demo](https://img.shields.io/badge/-Click to View 🔗-000?style=for-the-badge&logo=render&logoColor=white)](https://banking-system-2-5dsg.onrender.com)
 
 ---
 
@@ -71,6 +75,4 @@ This project is built using **Django**, containerized with **Docker**, and deplo
 </p>
 
 <p align="center"><i>Made with ❤️ by Mohammed Habeebuddin</i></p>
-=======
 
->>>>>>> a2c7fcdd956ff595a34b071ecaead843edf2be1a
